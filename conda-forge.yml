@@ -1,1 +1,2 @@
-{}
+provider:
+  linux_aarch64: default
