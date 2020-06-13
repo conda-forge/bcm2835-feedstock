@@ -1,5 +1,5 @@
 {% set name = "bcm2835" %}
-{% set version = "1.64" %}
+{% set version = "1.67" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: http://www.airspayce.com/mikem/bcm2835/{{ name }}-{{ version }}.tar.gz
-  sha256: 06a2124cd98b4d94df25ca5d41763a3042d005545c9aca00d49bfc084809481b
+  sha256: 8b6fbc593342671200f9d78c609df84cc3720877ae688daa6278369a62f8fe66
 
 build:
   number: 0
@@ -18,6 +18,8 @@ requirements:
   build:
     - {{ compiler('c') }}
     - make
+  host:
+    - libcap
 
 test:
   commands:
