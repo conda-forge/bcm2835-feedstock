@@ -5,7 +5,7 @@ Home: https://www.airspayce.com/mikem/bcm2835/index.html
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: C library for Broadcom BCM 2835 as used in Raspberry Pi
 
