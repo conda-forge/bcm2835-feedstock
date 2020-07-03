@@ -10,7 +10,7 @@ source:
   sha256: 8b6fbc593342671200f9d78c609df84cc3720877ae688daa6278369a62f8fe66
 
 build:
-  number: 0
+  number: 1
   # libbcm2835 relies on /proc/device-tree and other Linux specific features
   skip: True  # [win or osx]
 
