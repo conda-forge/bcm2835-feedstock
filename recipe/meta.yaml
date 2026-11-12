@@ -3,14 +3,14 @@
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: http://www.airspayce.com/mikem/bcm2835/{{ name }}-{{ version }}.tar.gz
   sha256: 8b6fbc593342671200f9d78c609df84cc3720877ae688daa6278369a62f8fe66
 
 build:
-  number: 3
+  number: 4
   # libbcm2835 relies on /proc/device-tree and other Linux specific features
   skip: True  # [win or osx]
 
