@@ -3,7 +3,7 @@
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: http://www.airspayce.com/mikem/bcm2835/{{ name }}-{{ version }}.tar.gz
